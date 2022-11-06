@@ -1,0 +1,269 @@
+﻿#include "pch-cpp.hpp"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include <stdint.h>
+#include <limits>
+
+
+
+// System.Char[]
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+// System.String
+struct String_t;
+// System.Void
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+
+struct unitytls_errorstate_tC926EE4582920BE2C1DB1F3F65619B810D5AB902;
+struct unitytls_key_ref_t6BD91D013DF11047C53738FEEB12CE290FDC71A2;
+struct unitytls_tlsctx_tF8BBCBFE1E957B846442DED65ECB89BC5307DEAE;
+struct unitytls_x509list_ref_t6C5C1CF0B720516A681CB741104A164FD8B3CF17;
+struct unitytls_x509name_t8A1108C917795D8FE946B50769ACE51489C7BF5D;
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.ValueType
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+// Native definition for P/Invoke marshalling of System.ValueType
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.ValueType
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+
+// System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_StaticFields
+{
+	// System.Char[] System.Enum::enumSeperatorCharArray
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___enumSeperatorCharArray_0;
+};
+// Native definition for P/Invoke marshalling of System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+
+// System.IntPtr
+struct IntPtr_t 
+{
+	// System.Void* System.IntPtr::m_value
+	void* ___m_value_0;
+};
+
+struct IntPtr_t_StaticFields
+{
+	// System.IntPtr System.IntPtr::Zero
+	intptr_t ___Zero_1;
+};
+
+// System.Void
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+
+// Mono.Unity.UnityTls/unitytls_x509_ref
+struct unitytls_x509_ref_t9CEB17766B4144117333AB50379B21A357FA4333 
+{
+	// System.UInt64 Mono.Unity.UnityTls/unitytls_x509_ref::handle
+	uint64_t ___handle_0;
+};
+
+// Mono.Unity.UnityTls/unitytls_x509list_ref
+struct unitytls_x509list_ref_t6C5C1CF0B720516A681CB741104A164FD8B3CF17 
+{
+	// System.UInt64 Mono.Unity.UnityTls/unitytls_x509list_ref::handle
+	uint64_t ___handle_0;
+};
+
+// Unity.WebRTC.RTCErrorType
+struct RTCErrorType_tA63BC2B3B304F41D5993064D1A0250ED84E61F8E 
+{
+	// System.Int32 Unity.WebRTC.RTCErrorType::value__
+	int32_t ___value___2;
+};
+
+// Unity.WebRTC.RTCIceConnectionState
+struct RTCIceConnectionState_t739AA726AE89EB18629763D57281E0103006136D 
+{
+	// System.Int32 Unity.WebRTC.RTCIceConnectionState::value__
+	int32_t ___value___2;
+};
+
+// Unity.WebRTC.RTCIceGatheringState
+struct RTCIceGatheringState_tF89E9CB08B1E3016730EA6336FB556DB230B8B6B 
+{
+	// System.Int32 Unity.WebRTC.RTCIceGatheringState::value__
+	int32_t ___value___2;
+};
+
+// Unity.WebRTC.RTCPeerConnectionState
+struct RTCPeerConnectionState_tD7B4F28FA237069661C9E3B0C7CBC096D87E7045 
+{
+	// System.Int32 Unity.WebRTC.RTCPeerConnectionState::value__
+	int32_t ___value___2;
+};
+
+// Unity.WebRTC.RTCSdpType
+struct RTCSdpType_tE8C84087161E44B64E85420AFFE3242C55DDD893 
+{
+	// System.Int32 Unity.WebRTC.RTCSdpType::value__
+	int32_t ___value___2;
+};
+
+// UnityEngine.XR.OpenXR.NativeTypes.XrResult
+struct XrResult_tC6E780422C0CF27153FB9B0ED7D1F60015608195 
+{
+	// System.Int32 UnityEngine.XR.OpenXR.NativeTypes.XrResult::value__
+	int32_t ___value___2;
+};
+
+// UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/ScriptEvent
+struct ScriptEvent_t98D7BEA7A83AEC5AC0316FCED0B85028D4E75DAD 
+{
+	// System.Int32 UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/ScriptEvent::value__
+	int32_t ___value___2;
+};
+
+// Mono.Btls.MonoBtlsBioMono/ControlCommand
+struct ControlCommand_tB0F1C7ED893D028334F92A046E73D932D64E51D3 
+{
+	// System.Int32 Mono.Btls.MonoBtlsBioMono/ControlCommand::value__
+	int32_t ___value___2;
+};
+
+// UnityEngine.XR.OpenXR.Features.OpenXRFeature/NativeEvent
+struct NativeEvent_t2C54A0DE392B348B223984562B66B06F48BC7F04 
+{
+	// System.Int32 UnityEngine.XR.OpenXR.Features.OpenXRFeature/NativeEvent::value__
+	int32_t ___value___2;
+};
+
+// Mono.Unity.UnityTls/unitytls_x509verify_result
+struct unitytls_x509verify_result_tBD0B93AE208F14C2C6CD925F0702A269BFE66FF0 
+{
+	// System.UInt32 Mono.Unity.UnityTls/unitytls_x509verify_result::value__
+	uint32_t ___value___2;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_CultureInfo_OnCultureInfoChangedInAppX_mDBD419B094B2CFE933BB3F63886A5AB4E44D2DC0(Il2CppChar* ___language0);
+extern "C" int32_t CDECL ReversePInvokeWrapper_DeflateStreamNative_UnmanagedRead_m79E9628F6FF91A3995491997242DD83046C9B704(intptr_t ___buffer0, int32_t ___length1, intptr_t ___data2);
+extern "C" int32_t CDECL ReversePInvokeWrapper_DeflateStreamNative_UnmanagedWrite_m509AE153ECB916CDF755432335FBAB2B51CA1486(intptr_t ___buffer0, int32_t ___length1, intptr_t ___data2);
+extern "C" void CDECL ReversePInvokeWrapper_MediaStream_MediaStreamOnAddTrack_mF7BC72CA70DA8EAB0AA7973E20F2623B3FA1AE0E(intptr_t ___ptr0, intptr_t ___trackPtr1);
+extern "C" void CDECL ReversePInvokeWrapper_MediaStream_MediaStreamOnRemoveTrack_mC19248DCB0B5D10876BB119C4D39F38A93A0D1F8(intptr_t ___ptr0, intptr_t ___trackPtr1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_MockRuntime_AfterFunctionCallback_m6812E36D77CB5E9AC4BA21547ECB1A7CC8130188(char* ___function0, int32_t ___result1);
+extern "C" int32_t DEFAULT_CALL ReversePInvokeWrapper_MockRuntime_BeforeFunctionCallback_mC2015035328001D9FC22DC73D38518A1146ED728(char* ___function0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_MockRuntime_ReceiveScriptEvent_mF60E011CE8C239703723E35BB000CEE934CAC267(int32_t ___evt0, uint64_t ___param1);
+extern "C" int64_t CDECL ReversePInvokeWrapper_MonoBtlsBioMono_Control_mE6F92D680A96B8B446D566D221BF925954FF43BB(intptr_t ___instance0, int32_t ___command1, int64_t ___arg2);
+extern "C" int32_t CDECL ReversePInvokeWrapper_MonoBtlsBioMono_OnRead_mE0FF0BFC134CD0F923BBC555E346B7DD7CAD8988(intptr_t ___instance0, intptr_t ___data1, int32_t ___dataLength2, int32_t* ___wantMore3);
+extern "C" int32_t CDECL ReversePInvokeWrapper_MonoBtlsBioMono_OnWrite_m605A12A8B0CE9517927656981580BFA330BED613(intptr_t ___instance0, intptr_t ___data1, int32_t ___dataLength2);
+extern "C" int32_t CDECL ReversePInvokeWrapper_MonoBtlsSsl_PrintErrorsCallback_mF161ADF7DBDB81C47BDD587C87E1275DEE5B7A45(intptr_t ___str0, intptr_t ___len1, intptr_t ___ctx2);
+extern "C" int32_t CDECL ReversePInvokeWrapper_MonoBtlsSslCtx_NativeSelectCallback_m6CA34F71A6093C7260A9F066D6C9FB3CD0CC86DB(intptr_t ___instance0, int32_t ___count1, intptr_t ___sizes2, intptr_t ___data3);
+extern "C" int32_t CDECL ReversePInvokeWrapper_MonoBtlsSslCtx_NativeServerNameCallback_mFF311CE931F6A075940D1B6828D1FB517AF03838(intptr_t ___instance0);
+extern "C" int32_t CDECL ReversePInvokeWrapper_MonoBtlsSslCtx_NativeVerifyCallback_mFDF10D01CAAD040E50EE6F53FC1D4155EF696218(intptr_t ___instance0, int32_t ___preverify_ok1, intptr_t ___store_ctx2);
+extern "C" int32_t CDECL ReversePInvokeWrapper_MonoBtlsX509LookupMono_OnGetBySubject_m15FE6FBEE9849C324E8E099172A581EABEB83FB3(intptr_t ___instance0, intptr_t ___name_ptr1, intptr_t* ___x509_ptr2);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_OSSpecificSynchronizationContext_InvocationEntry_mB85BF0265E239960FC963DCA74DC67EBCE9480AC(intptr_t ___arg0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_OpenXRLoaderBase_ReceiveNativeEvent_m1B50DCF4E5D74B8395C1B1E64747B1E8A3DE7AD6(int32_t ___e0, uint64_t ___payload1);
+extern "C" void CDECL ReversePInvokeWrapper_RTCDataChannel_DataChannelNativeOnClose_m776B0B3282ACC1ABA4CF1846D5CD669E4C030596(intptr_t ___ptr0);
+extern "C" void CDECL ReversePInvokeWrapper_RTCDataChannel_DataChannelNativeOnMessage_mAB7C224CC5F0E255128C86115A3B4F043BA9105F(intptr_t ___ptr0, uint8_t* ___msg1, int32_t ___len2);
+extern "C" void CDECL ReversePInvokeWrapper_RTCDataChannel_DataChannelNativeOnOpen_m974FFD6CFD2FB8F9EE8B0AA097988551E3197A93(intptr_t ___ptr0);
+extern "C" void CDECL ReversePInvokeWrapper_RTCPeerConnection_OnFailureCreateSessionDesc_mB2DF0D07A06DE443899FFDFEF3D6D14A33B60BFD(intptr_t ___ptr0, int32_t ___type1, char* ___message2);
+extern "C" void CDECL ReversePInvokeWrapper_RTCPeerConnection_OnSetSessionDescFailure_mA640D2246B6FE93670A1B6A788EAFD3B7B8C32CA(intptr_t ___ptr0, int32_t ___type1, char* ___message2);
+extern "C" void CDECL ReversePInvokeWrapper_RTCPeerConnection_OnSetSessionDescSuccess_mCC758825F0610F3C7DE4418AC121C498965A585B(intptr_t ___ptr0);
+extern "C" void CDECL ReversePInvokeWrapper_RTCPeerConnection_OnStatsDeliveredCallback_m1B15E9B79363DE88DB9AFAF6FFC8C63D6179CB8E(intptr_t ___ptr0, intptr_t ___report1);
+extern "C" void CDECL ReversePInvokeWrapper_RTCPeerConnection_OnSuccessCreateSessionDesc_m9DEF61D1C3370541D458B3E90ACB77901CB8DEB7(intptr_t ___ptr0, int32_t ___type1, char* ___sdp2);
+extern "C" void CDECL ReversePInvokeWrapper_RTCPeerConnection_PCOnConnectionStateChange_mA17AB8864B83F035D8C391B5923E4E216659B0AB(intptr_t ___ptr0, int32_t ___state1);
+extern "C" void CDECL ReversePInvokeWrapper_RTCPeerConnection_PCOnDataChannel_mBB563111A9460962CEE2B2E15691E53FBB8C5308(intptr_t ___ptr0, intptr_t ___ptrChannel1);
+extern "C" void CDECL ReversePInvokeWrapper_RTCPeerConnection_PCOnIceCandidate_mD61B1FEAA98ADBE0BA995D4D167004AD4A4DA9E8(intptr_t ___ptr0, char* ___sdp1, char* ___sdpMid2, int32_t ___sdpMlineIndex3);
+extern "C" void CDECL ReversePInvokeWrapper_RTCPeerConnection_PCOnIceConnectionChange_mFE6AF1F3467D349C5A47EA33414FB766CEE0F2F5(intptr_t ___ptr0, int32_t ___state1);
+extern "C" void CDECL ReversePInvokeWrapper_RTCPeerConnection_PCOnIceGatheringChange_m70BB21132BA91EF64E8CB7DC7E7AEABC08830CCE(intptr_t ___ptr0, int32_t ___state1);
+extern "C" void CDECL ReversePInvokeWrapper_RTCPeerConnection_PCOnNegotiationNeeded_m902DE699C3B09DA5994481922245479468A7FB0A(intptr_t ___ptr0);
+extern "C" void CDECL ReversePInvokeWrapper_RTCPeerConnection_PCOnRemoveTrack_m147C1850FB61DE4E543C9C8B90AF263F9007B1D8(intptr_t ___ptr0, intptr_t ___receiverPtr1);
+extern "C" void CDECL ReversePInvokeWrapper_RTCPeerConnection_PCOnTrack_m4123923C2E45FFA9BDAAF1B26E644403E2A07DBA(intptr_t ___ptr0, intptr_t ___transceiver1);
+extern "C" void CDECL ReversePInvokeWrapper_UnityTlsContext_CertificateCallback_mF5E626BA2545CFFA64428622678E409702C2045A(void* ___userData0, unitytls_tlsctx_tF8BBCBFE1E957B846442DED65ECB89BC5307DEAE* ___ctx1, uint8_t* ___cn2, intptr_t ___cnLen3, unitytls_x509name_t8A1108C917795D8FE946B50769ACE51489C7BF5D* ___caList4, intptr_t ___caListLen5, unitytls_x509list_ref_t6C5C1CF0B720516A681CB741104A164FD8B3CF17* ___chain6, unitytls_key_ref_t6BD91D013DF11047C53738FEEB12CE290FDC71A2* ___key7, unitytls_errorstate_tC926EE4582920BE2C1DB1F3F65619B810D5AB902* ___errorState8);
+extern "C" intptr_t CDECL ReversePInvokeWrapper_UnityTlsContext_ReadCallback_m15F3A217E44D480CAED06EB5A88503FB6259D7EC(void* ___userData0, uint8_t* ___buffer1, intptr_t ___bufferLen2, unitytls_errorstate_tC926EE4582920BE2C1DB1F3F65619B810D5AB902* ___errorState3);
+extern "C" uint32_t CDECL ReversePInvokeWrapper_UnityTlsContext_VerifyCallback_m75D7C072718405EBBF8A2A9C794C4DDFB2595BD0(void* ___userData0, unitytls_x509list_ref_t6C5C1CF0B720516A681CB741104A164FD8B3CF17 ___chain1, unitytls_errorstate_tC926EE4582920BE2C1DB1F3F65619B810D5AB902* ___errorState2);
+extern "C" intptr_t CDECL ReversePInvokeWrapper_UnityTlsContext_WriteCallback_m53DD70115C97432A676F3E437E8FB42F9FC068F5(void* ___userData0, uint8_t* ___data1, intptr_t ___bufferLen2, unitytls_errorstate_tC926EE4582920BE2C1DB1F3F65619B810D5AB902* ___errorState3);
+extern "C" uint32_t CDECL ReversePInvokeWrapper_UnityTlsProvider_x509verify_callback_m47823254E133F7304ABFAE5A1F0D218402BC5B45(void* ___userData0, unitytls_x509_ref_t9CEB17766B4144117333AB50379B21A357FA4333 ___cert1, uint32_t ___result2, unitytls_errorstate_tC926EE4582920BE2C1DB1F3F65619B810D5AB902* ___errorState3);
+extern "C" void CDECL ReversePInvokeWrapper_UnityVideoRenderer_OnVideoFrameResize_m90155B8CB477A814F71242C21E40556D99BA737A(intptr_t ___ptrRenderer0, int32_t ___width1, int32_t ___height2);
+extern "C" void CDECL ReversePInvokeWrapper_WebRTC_DebugLog_m5ED8AD20E3EFD8C74DA9A375D87000C10EB5B2B0(char* ___str0);
+
+
+IL2CPP_EXTERN_C const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[];
+const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[41] = 
+{
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CultureInfo_OnCultureInfoChangedInAppX_mDBD419B094B2CFE933BB3F63886A5AB4E44D2DC0),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_DeflateStreamNative_UnmanagedRead_m79E9628F6FF91A3995491997242DD83046C9B704),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_DeflateStreamNative_UnmanagedWrite_m509AE153ECB916CDF755432335FBAB2B51CA1486),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MediaStream_MediaStreamOnAddTrack_mF7BC72CA70DA8EAB0AA7973E20F2623B3FA1AE0E),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MediaStream_MediaStreamOnRemoveTrack_mC19248DCB0B5D10876BB119C4D39F38A93A0D1F8),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MockRuntime_AfterFunctionCallback_m6812E36D77CB5E9AC4BA21547ECB1A7CC8130188),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MockRuntime_BeforeFunctionCallback_mC2015035328001D9FC22DC73D38518A1146ED728),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MockRuntime_ReceiveScriptEvent_mF60E011CE8C239703723E35BB000CEE934CAC267),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MonoBtlsBioMono_Control_mE6F92D680A96B8B446D566D221BF925954FF43BB),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MonoBtlsBioMono_OnRead_mE0FF0BFC134CD0F923BBC555E346B7DD7CAD8988),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MonoBtlsBioMono_OnWrite_m605A12A8B0CE9517927656981580BFA330BED613),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MonoBtlsSsl_PrintErrorsCallback_mF161ADF7DBDB81C47BDD587C87E1275DEE5B7A45),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MonoBtlsSslCtx_NativeSelectCallback_m6CA34F71A6093C7260A9F066D6C9FB3CD0CC86DB),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MonoBtlsSslCtx_NativeServerNameCallback_mFF311CE931F6A075940D1B6828D1FB517AF03838),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MonoBtlsSslCtx_NativeVerifyCallback_mFDF10D01CAAD040E50EE6F53FC1D4155EF696218),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MonoBtlsX509LookupMono_OnGetBySubject_m15FE6FBEE9849C324E8E099172A581EABEB83FB3),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_OSSpecificSynchronizationContext_InvocationEntry_mB85BF0265E239960FC963DCA74DC67EBCE9480AC),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_OpenXRLoaderBase_ReceiveNativeEvent_m1B50DCF4E5D74B8395C1B1E64747B1E8A3DE7AD6),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RTCDataChannel_DataChannelNativeOnClose_m776B0B3282ACC1ABA4CF1846D5CD669E4C030596),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RTCDataChannel_DataChannelNativeOnMessage_mAB7C224CC5F0E255128C86115A3B4F043BA9105F),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RTCDataChannel_DataChannelNativeOnOpen_m974FFD6CFD2FB8F9EE8B0AA097988551E3197A93),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RTCPeerConnection_OnFailureCreateSessionDesc_mB2DF0D07A06DE443899FFDFEF3D6D14A33B60BFD),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RTCPeerConnection_OnSetSessionDescFailure_mA640D2246B6FE93670A1B6A788EAFD3B7B8C32CA),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RTCPeerConnection_OnSetSessionDescSuccess_mCC758825F0610F3C7DE4418AC121C498965A585B),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RTCPeerConnection_OnStatsDeliveredCallback_m1B15E9B79363DE88DB9AFAF6FFC8C63D6179CB8E),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RTCPeerConnection_OnSuccessCreateSessionDesc_m9DEF61D1C3370541D458B3E90ACB77901CB8DEB7),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RTCPeerConnection_PCOnConnectionStateChange_mA17AB8864B83F035D8C391B5923E4E216659B0AB),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RTCPeerConnection_PCOnDataChannel_mBB563111A9460962CEE2B2E15691E53FBB8C5308),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RTCPeerConnection_PCOnIceCandidate_mD61B1FEAA98ADBE0BA995D4D167004AD4A4DA9E8),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RTCPeerConnection_PCOnIceConnectionChange_mFE6AF1F3467D349C5A47EA33414FB766CEE0F2F5),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RTCPeerConnection_PCOnIceGatheringChange_m70BB21132BA91EF64E8CB7DC7E7AEABC08830CCE),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RTCPeerConnection_PCOnNegotiationNeeded_m902DE699C3B09DA5994481922245479468A7FB0A),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RTCPeerConnection_PCOnRemoveTrack_m147C1850FB61DE4E543C9C8B90AF263F9007B1D8),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RTCPeerConnection_PCOnTrack_m4123923C2E45FFA9BDAAF1B26E644403E2A07DBA),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_UnityTlsContext_CertificateCallback_mF5E626BA2545CFFA64428622678E409702C2045A),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_UnityTlsContext_ReadCallback_m15F3A217E44D480CAED06EB5A88503FB6259D7EC),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_UnityTlsContext_VerifyCallback_m75D7C072718405EBBF8A2A9C794C4DDFB2595BD0),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_UnityTlsContext_WriteCallback_m53DD70115C97432A676F3E437E8FB42F9FC068F5),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_UnityTlsProvider_x509verify_callback_m47823254E133F7304ABFAE5A1F0D218402BC5B45),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_UnityVideoRenderer_OnVideoFrameResize_m90155B8CB477A814F71242C21E40556D99BA737A),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_WebRTC_DebugLog_m5ED8AD20E3EFD8C74DA9A375D87000C10EB5B2B0),
+};
