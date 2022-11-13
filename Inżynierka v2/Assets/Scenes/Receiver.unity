@@ -1040,6 +1040,7 @@ GameObject:
   - component: {fileID: 1868015537}
   - component: {fileID: 1868015538}
   - component: {fileID: 1868015539}
+  - component: {fileID: 1868015540}
   m_Layer: 0
   m_Name: Stream Receiver
   m_TagString: Untagged
@@ -1202,11 +1203,39 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: fc21d1a9-95bc-44f1-936f-c35c090b77a4
     m_ActionName: New action map/New action[/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1868015533}
+        m_TargetAssemblyTypeName: ReceiverManager, Assembly-CSharp
+        m_MethodName: Back
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 64bdffc2-592f-4a4b-86d9-78de2cef9a7c
+    m_ActionName: New action map/Back[/Keyboard/escape,/Keyboard/backspace]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: New action map
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &1868015540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868015531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dae4923581cb4074599a2acd7c4a05ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2062562825
 GameObject:
   m_ObjectHideFlags: 0

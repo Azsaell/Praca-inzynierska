@@ -1,23 +1,48 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - Test
-    - Unity.Template.VR.XRPlatformControllerSetup
+    - CameraController
+    - LookAround
+    - RenderStreamingManager
+    - UIManager
+    - VideoPlayerManager
+    SimpleFileBrowser.Runtime.dll:
+    - SimpleFileBrowser.EventSystemHandler
+    - SimpleFileBrowser.FileBrowser
+    - SimpleFileBrowser.FileBrowserAccessRestrictedPanel
+    - SimpleFileBrowser.FileBrowserContextMenu
+    - SimpleFileBrowser.FileBrowserCursorHandler
+    - SimpleFileBrowser.FileBrowserFileOperationConfirmationPanel
+    - SimpleFileBrowser.FileBrowserItem
+    - SimpleFileBrowser.FileBrowserMovement
+    - SimpleFileBrowser.FileBrowserQuickLink
+    - SimpleFileBrowser.FileBrowserRenamedItem
+    - SimpleFileBrowser.NonDrawingGraphic
+    - SimpleFileBrowser.RecycledListView
+    - SimpleFileBrowser.UISkin
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputActionAsset
+    - UnityEngine.InputSystem.InputActionReference
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
-    - UnityEngine.InputSystem.PlayerInput
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
+    - UnityEngine.InputSystem.UI.InputSystemUIInputModule
     Unity.RenderStreaming.Runtime.dll:
-    - Unity.RenderStreaming.AudioStreamReceiver
-    - Unity.RenderStreaming.InputSender
+    - Unity.RenderStreaming.AudioStreamSender
+    - Unity.RenderStreaming.Broadcast
+    - Unity.RenderStreaming.CameraStreamSender
+    - Unity.RenderStreaming.InputReceiver
     - Unity.RenderStreaming.RenderStreaming
-    - Unity.RenderStreaming.SingleConnection
-    - Unity.RenderStreaming.VideoStreamReceiver
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.RiderScriptEditorData
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_InputField
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
     Unity.Tutorials.Core.Editor.dll:
     - Unity.Tutorials.Core.Editor.TutorialContainer
     - Unity.Tutorials.Core.Editor.TutorialProjectSettings
@@ -56,12 +81,29 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
-    UnityEngine.SpatialTracking.dll:
-    - UnityEngine.SpatialTracking.TrackedPoseDriver
-    UnityEngine.XR.LegacyInputHelpers.dll:
-    - UnityEditor.XR.LegacyInputHelpers.CameraOffset
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.BaseInput
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.EventTrigger
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
+    - UnityEngine.UI.Dropdown
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.HorizontalLayoutGroup
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
+    - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.RectMask2D
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Shadow
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
+    - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
-    Assets/Scenes/Receiver.unity:
+    Assets/Scenes/Sender.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -70,21 +112,96 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
-    - Class: 23
-      Script: {instanceID: 0}
     - Class: 28
       Script: {instanceID: 0}
-    - Class: 33
-      Script: {instanceID: 0}
-    - Class: 43
-      Script: {instanceID: 0}
     - Class: 48
-      Script: {instanceID: 0}
-    - Class: 64
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 82
+      Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1706}
+    - Class: 114
+      Script: {instanceID: 3010}
+    - Class: 114
+      Script: {instanceID: 3092}
+    - Class: 114
+      Script: {instanceID: 3264}
+    - Class: 114
+      Script: {instanceID: 3626}
+    - Class: 114
+      Script: {instanceID: 4222}
+    - Class: 114
+      Script: {instanceID: 4240}
+    - Class: 114
+      Script: {instanceID: 4358}
+    - Class: 114
+      Script: {instanceID: 4422}
+    - Class: 114
+      Script: {instanceID: 4470}
+    - Class: 114
+      Script: {instanceID: 6178}
+    - Class: 114
+      Script: {instanceID: 6906}
+    - Class: 114
+      Script: {instanceID: 7090}
+    - Class: 114
+      Script: {instanceID: 7536}
+    - Class: 114
+      Script: {instanceID: 7704}
+    - Class: 114
+      Script: {instanceID: 7978}
+    - Class: 114
+      Script: {instanceID: 8534}
+    - Class: 114
+      Script: {instanceID: 8536}
+    - Class: 114
+      Script: {instanceID: 8854}
+    - Class: 114
+      Script: {instanceID: 29766}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 328
+      Script: {instanceID: 0}
+    - Class: 329
+      Script: {instanceID: 0}
+    Assets/Scenes/SenderMenu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 81
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
@@ -93,32 +210,106 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1684}
+      Script: {instanceID: 1706}
     - Class: 114
-      Script: {instanceID: 1888}
+      Script: {instanceID: 1848}
     - Class: 114
-      Script: {instanceID: 2318}
+      Script: {instanceID: 1954}
     - Class: 114
-      Script: {instanceID: 4396}
+      Script: {instanceID: 2452}
     - Class: 114
-      Script: {instanceID: 5212}
+      Script: {instanceID: 3010}
     - Class: 114
-      Script: {instanceID: 5816}
+      Script: {instanceID: 3264}
     - Class: 114
-      Script: {instanceID: 7172}
+      Script: {instanceID: 3332}
     - Class: 114
-      Script: {instanceID: 7740}
+      Script: {instanceID: 3626}
     - Class: 114
-      Script: {instanceID: 8056}
+      Script: {instanceID: 3844}
     - Class: 114
-      Script: {instanceID: 8506}
+      Script: {instanceID: 4060}
     - Class: 114
-      Script: {instanceID: 9232}
+      Script: {instanceID: 4422}
+    - Class: 114
+      Script: {instanceID: 4918}
+    - Class: 114
+      Script: {instanceID: 4940}
+    - Class: 114
+      Script: {instanceID: 5272}
+    - Class: 114
+      Script: {instanceID: 5922}
+    - Class: 114
+      Script: {instanceID: 6002}
+    - Class: 114
+      Script: {instanceID: 6080}
+    - Class: 114
+      Script: {instanceID: 6178}
+    - Class: 114
+      Script: {instanceID: 6532}
+    - Class: 114
+      Script: {instanceID: 6906}
+    - Class: 114
+      Script: {instanceID: 7090}
+    - Class: 114
+      Script: {instanceID: 7502}
+    - Class: 114
+      Script: {instanceID: 7516}
+    - Class: 114
+      Script: {instanceID: 7978}
+    - Class: 114
+      Script: {instanceID: 8042}
+    - Class: 114
+      Script: {instanceID: 8434}
+    - Class: 114
+      Script: {instanceID: 8500}
+    - Class: 114
+      Script: {instanceID: 8536}
+    - Class: 114
+      Script: {instanceID: 8854}
+    - Class: 114
+      Script: {instanceID: 8882}
+    - Class: 114
+      Script: {instanceID: 56814}
+    - Class: 114
+      Script: {instanceID: 56816}
+    - Class: 114
+      Script: {instanceID: 56820}
+    - Class: 114
+      Script: {instanceID: 56824}
+    - Class: 114
+      Script: {instanceID: 56826}
+    - Class: 114
+      Script: {instanceID: 56828}
+    - Class: 114
+      Script: {instanceID: 56830}
+    - Class: 114
+      Script: {instanceID: 56832}
+    - Class: 114
+      Script: {instanceID: 56840}
+    - Class: 114
+      Script: {instanceID: 56842}
+    - Class: 114
+      Script: {instanceID: 56844}
+    - Class: 114
+      Script: {instanceID: 56846}
+    - Class: 114
+      Script: {instanceID: 56850}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -571,6 +762,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: e5d83d8736b02d4479d5bb358ec0ff9c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: VideoPlayerManager
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1203,6 +1400,12 @@ ScriptsOnlyBuild:
     className: RenderStreaming
   - hash:
       serializedVersion: 2
+      Hash: bf4ec1da26425d86fb8312cf0cb120cb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIManager
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -1284,7 +1487,7 @@ ScriptsOnlyBuild:
       Hash: 2304d327e635961c80d968884f190a3a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Test
+    className: ReceiverManager
   - hash:
       serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
@@ -1357,7 +1560,104 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RenderStreamingManager
+  - hash:
+      serializedVersion: 2
+      Hash: f5ab3bf70f469d7718d1339403fbb53c
+    assemblyName: SimpleFileBrowser.Runtime.dll
+    namespaceName: SimpleFileBrowser
+    className: FileBrowserContextMenu
+  - hash:
+      serializedVersion: 2
+      Hash: ddd381ade624b2b584949d551da5ca38
+    assemblyName: SimpleFileBrowser.Runtime.dll
+    namespaceName: SimpleFileBrowser
+    className: FileBrowserRenamedItem
+  - hash:
+      serializedVersion: 2
+      Hash: 3e5a49bb5a53952bf3c5082af20d56f5
+    assemblyName: SimpleFileBrowser.Runtime.dll
+    namespaceName: SimpleFileBrowser
+    className: EventSystemHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 323aa29be4fedc5e3000334851405478
+    assemblyName: SimpleFileBrowser.Runtime.dll
+    namespaceName: SimpleFileBrowser
+    className: FileBrowser
+  - hash:
+      serializedVersion: 2
+      Hash: 9616845d4f318a2fc3d2acbfa5c3073a
+    assemblyName: SimpleFileBrowser.Runtime.dll
+    namespaceName: SimpleFileBrowser
+    className: FileBrowserFileOperationConfirmationPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 23c9b15fcdeebbd3a5d729baeb686922
+    assemblyName: SimpleFileBrowser.Runtime.dll
+    namespaceName: SimpleFileBrowser
+    className: UISkin
+  - hash:
+      serializedVersion: 2
+      Hash: e46fb90fe982b931d02425fdac83d261
+    assemblyName: SimpleFileBrowser.Runtime.dll
+    namespaceName: SimpleFileBrowser
+    className: FileBrowserItem
+  - hash:
+      serializedVersion: 2
+      Hash: 029c97d0c776a306d131505738b12c20
+    assemblyName: SimpleFileBrowser.Runtime.dll
+    namespaceName: SimpleFileBrowser
+    className: FileBrowserMovement
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SimpleFileBrowser.Runtime.dll
+    namespaceName: SimpleFileBrowser
+    className: ListItem
+  - hash:
+      serializedVersion: 2
+      Hash: 95ab34eaee0edbfbaf594fadfc753be4
+    assemblyName: SimpleFileBrowser.Runtime.dll
+    namespaceName: SimpleFileBrowser
+    className: NonDrawingGraphic
+  - hash:
+      serializedVersion: 2
+      Hash: 0c47d5fdc3a8599489e98bad490312d4
+    assemblyName: SimpleFileBrowser.Runtime.dll
+    namespaceName: SimpleFileBrowser
+    className: FileBrowserAccessRestrictedPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 9bd0a2af3ce602e27768101cfa70219d
+    assemblyName: SimpleFileBrowser.Runtime.dll
+    namespaceName: SimpleFileBrowser
+    className: RecycledListView
+  - hash:
+      serializedVersion: 2
+      Hash: 61e8db3a75ec3688670ec588afc0f693
+    assemblyName: SimpleFileBrowser.Runtime.dll
+    namespaceName: SimpleFileBrowser
+    className: FileBrowserCursorHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SimpleFileBrowser.Runtime.dll
+    namespaceName: SimpleFileBrowser
+    className: FBCallbackHelper
+  - hash:
+      serializedVersion: 2
+      Hash: e46fb90fe982b931d02425fdac83d261
+    assemblyName: SimpleFileBrowser.Runtime.dll
+    namespaceName: SimpleFileBrowser
+    className: FileBrowserQuickLink
   platform: 19
   scenePathNames:
-  - Assets/Scenes/Receiver.unity
-  playerPath: "C:/Users/macie/Downloads/test2/In\u017Cynierka v2.exe"
+  - Assets/Scenes/SenderMenu.unity
+  - Assets/Scenes/Sender.unity
+  playerPath: C:/Users/macie/Downloads/test/Sender.exe

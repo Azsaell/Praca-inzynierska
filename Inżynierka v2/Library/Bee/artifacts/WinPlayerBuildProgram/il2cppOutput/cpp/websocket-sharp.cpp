@@ -25479,7 +25479,7 @@ IL_0034:
 		FileInfo_t62782BBAFA832A78724E4CF2EE96548B8466AB1C* L_7 = ___fileInfo0;
 		NullCheck(L_7);
 		bool L_8;
-		L_8 = VirtualFuncInvoker0< bool >::Invoke(9 /* System.Boolean System.IO.FileSystemInfo::get_Exists() */, L_7);
+		L_8 = VirtualFuncInvoker0< bool >::Invoke(10 /* System.Boolean System.IO.FileSystemInfo::get_Exists() */, L_7);
 		V_4 = (bool)((((int32_t)L_8) == ((int32_t)0))? 1 : 0);
 		bool L_9 = V_4;
 		if (!L_9)
@@ -25891,7 +25891,7 @@ IL_0034:
 		FileInfo_t62782BBAFA832A78724E4CF2EE96548B8466AB1C* L_7 = ___fileInfo0;
 		NullCheck(L_7);
 		bool L_8;
-		L_8 = VirtualFuncInvoker0< bool >::Invoke(9 /* System.Boolean System.IO.FileSystemInfo::get_Exists() */, L_7);
+		L_8 = VirtualFuncInvoker0< bool >::Invoke(10 /* System.Boolean System.IO.FileSystemInfo::get_Exists() */, L_7);
 		V_4 = (bool)((((int32_t)L_8) == ((int32_t)0))? 1 : 0);
 		bool L_9 = V_4;
 		if (!L_9)
