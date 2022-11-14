@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class LookAround : MonoBehaviour
@@ -33,6 +30,4 @@ public class LookAround : MonoBehaviour
         newRotation.y -= mouseHorizontalRotation*1.2f;
         transform.localRotation = Quaternion.Euler(newRotation);
     }
-    
-    
 }

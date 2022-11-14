@@ -322,7 +322,6 @@
 -r:"Library/Bee/artifacts/1900b0aPDevDbg.dag/UnityEngine.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aPDevDbg.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aPDevDbg.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
-"Assets/BroadcastSample.cs"
 "Assets/CameraController.cs"
 "Assets/LookAround.cs"
 "Assets/ReceiverManager.cs"
