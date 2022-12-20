@@ -6,15 +6,6 @@
             "id": "d58d2b8e-7319-4702-a70d-a661c2dc7ddd",
             "actions": [
                 {
-                    "name": "Rotate",
-                    "type": "Button",
-                    "id": "f1808253-c62e-43e7-859e-be56283d7a42",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
                     "name": "Look",
                     "type": "Value",
                     "id": "cc56073c-5853-48d6-9120-ded311bdea82",
@@ -43,39 +34,6 @@
                 }
             ],
             "bindings": [
-                {
-                    "name": "Delta with button",
-                    "id": "4df0d913-b022-411d-961f-711ad1de7bae",
-                    "path": "OneModifier",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Rotate",
-                    "isComposite": true,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "modifier",
-                    "id": "529d5de3-08db-4985-90af-adb917549883",
-                    "path": "<Mouse>/leftButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Rotate",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "binding",
-                    "id": "90f3a54f-ac01-4698-a901-88dcd33ffbb5",
-                    "path": "<Mouse>/delta",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Rotate",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
                 {
                     "name": "",
                     "id": "3af3e4a5-2c9f-4ab8-b9af-0cfbd70beaa3",
@@ -119,17 +77,6 @@
                     "action": "Look",
                     "isComposite": false,
                     "isPartOfComposite": true
-                },
-                {
-                    "name": "",
-                    "id": "831325b8-fdbf-494f-a698-33df2b763bef",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Look",
-                    "isComposite": false,
-                    "isPartOfComposite": false
                 },
                 {
                     "name": "",

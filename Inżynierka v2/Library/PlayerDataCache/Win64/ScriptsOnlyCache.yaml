@@ -1,11 +1,10 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - CameraController
-    - LookAround
+    - ReceiverManager
     - RenderStreamingManager
     - UIManager
-    - VideoPlayerManager
+    - Unity.Template.VR.XRPlatformControllerSetup
     SimpleFileBrowser.Runtime.dll:
     - SimpleFileBrowser.EventSystemHandler
     - SimpleFileBrowser.FileBrowser
@@ -25,14 +24,15 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.InputActionReference
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
+    - UnityEngine.InputSystem.PlayerInput
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
     - UnityEngine.InputSystem.UI.InputSystemUIInputModule
     Unity.RenderStreaming.Runtime.dll:
-    - Unity.RenderStreaming.AudioStreamSender
-    - Unity.RenderStreaming.Broadcast
-    - Unity.RenderStreaming.CameraStreamSender
-    - Unity.RenderStreaming.InputReceiver
+    - Unity.RenderStreaming.AudioStreamReceiver
+    - Unity.RenderStreaming.InputSender
     - Unity.RenderStreaming.RenderStreaming
+    - Unity.RenderStreaming.SingleConnection
+    - Unity.RenderStreaming.VideoStreamReceiver
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.RiderScriptEditorData
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -81,6 +81,8 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.SpatialTracking.dll:
+    - UnityEngine.SpatialTracking.TrackedPoseDriver
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.BaseInput
     - UnityEngine.EventSystems.EventSystem
@@ -102,8 +104,10 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Text
     - UnityEngine.UI.Toggle
     - UnityEngine.UI.VerticalLayoutGroup
+    UnityEngine.XR.LegacyInputHelpers.dll:
+    - UnityEditor.XR.LegacyInputHelpers.CameraOffset
   sceneClasses:
-    Assets/Scenes/Sender.unity:
+    Assets/Scenes/Receiver.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -112,81 +116,59 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
     - Class: 28
       Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
     - Class: 48
+      Script: {instanceID: 0}
+    - Class: 64
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 82
       Script: {instanceID: 0}
-    - Class: 84
+    - Class: 89
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1660}
+      Script: {instanceID: 1714}
     - Class: 114
-      Script: {instanceID: 3016}
+      Script: {instanceID: 1918}
     - Class: 114
-      Script: {instanceID: 3098}
-    - Class: 114
-      Script: {instanceID: 3272}
-    - Class: 114
-      Script: {instanceID: 3634}
-    - Class: 114
-      Script: {instanceID: 4232}
-    - Class: 114
-      Script: {instanceID: 4250}
-    - Class: 114
-      Script: {instanceID: 4368}
+      Script: {instanceID: 2350}
     - Class: 114
       Script: {instanceID: 4432}
     - Class: 114
-      Script: {instanceID: 4480}
+      Script: {instanceID: 5256}
     - Class: 114
       Script: {instanceID: 5410}
     - Class: 114
-      Script: {instanceID: 6196}
+      Script: {instanceID: 5864}
     - Class: 114
-      Script: {instanceID: 6928}
+      Script: {instanceID: 7220}
     - Class: 114
-      Script: {instanceID: 7112}
+      Script: {instanceID: 7790}
     - Class: 114
-      Script: {instanceID: 7560}
+      Script: {instanceID: 8106}
     - Class: 114
-      Script: {instanceID: 7728}
+      Script: {instanceID: 8560}
     - Class: 114
-      Script: {instanceID: 8002}
-    - Class: 114
-      Script: {instanceID: 8562}
-    - Class: 114
-      Script: {instanceID: 8564}
-    - Class: 114
-      Script: {instanceID: 8886}
+      Script: {instanceID: 9302}
     - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    - Class: 328
-      Script: {instanceID: 0}
-    - Class: 329
-      Script: {instanceID: 0}
-    Assets/Scenes/SenderMenu.unity:
+    Assets/Scenes/ReceiverMenu.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -252,49 +234,49 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5814}
     - Class: 114
-      Script: {instanceID: 5942}
+      Script: {instanceID: 5940}
     - Class: 114
-      Script: {instanceID: 6098}
+      Script: {instanceID: 6096}
     - Class: 114
-      Script: {instanceID: 6196}
+      Script: {instanceID: 6194}
     - Class: 114
-      Script: {instanceID: 6550}
+      Script: {instanceID: 6548}
     - Class: 114
-      Script: {instanceID: 6776}
+      Script: {instanceID: 6774}
     - Class: 114
-      Script: {instanceID: 6784}
+      Script: {instanceID: 6782}
     - Class: 114
-      Script: {instanceID: 6928}
+      Script: {instanceID: 6926}
     - Class: 114
-      Script: {instanceID: 7112}
+      Script: {instanceID: 7110}
     - Class: 114
-      Script: {instanceID: 7526}
+      Script: {instanceID: 7524}
     - Class: 114
-      Script: {instanceID: 7540}
+      Script: {instanceID: 7538}
     - Class: 114
-      Script: {instanceID: 8002}
+      Script: {instanceID: 8000}
     - Class: 114
-      Script: {instanceID: 8066}
+      Script: {instanceID: 8064}
     - Class: 114
-      Script: {instanceID: 8170}
+      Script: {instanceID: 8168}
     - Class: 114
-      Script: {instanceID: 8462}
+      Script: {instanceID: 8460}
     - Class: 114
-      Script: {instanceID: 8528}
+      Script: {instanceID: 8526}
     - Class: 114
-      Script: {instanceID: 8564}
+      Script: {instanceID: 8562}
     - Class: 114
-      Script: {instanceID: 8604}
+      Script: {instanceID: 8602}
     - Class: 114
-      Script: {instanceID: 8704}
+      Script: {instanceID: 8702}
     - Class: 114
-      Script: {instanceID: 8886}
+      Script: {instanceID: 8884}
     - Class: 114
-      Script: {instanceID: 8914}
+      Script: {instanceID: 8912}
     - Class: 114
-      Script: {instanceID: 9206}
+      Script: {instanceID: 9204}
     - Class: 114
-      Script: {instanceID: 9462}
+      Script: {instanceID: 9460}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1652,6 +1634,6 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   platform: 19
   scenePathNames:
-  - Assets/Scenes/SenderMenu.unity
-  - Assets/Scenes/Sender.unity
-  playerPath: C:/Users/macie/Downloads/Sender2/Sender.exe
+  - Assets/Scenes/ReceiverMenu.unity
+  - Assets/Scenes/Receiver.unity
+  playerPath: C:/Users/macie/Downloads/Receiver 5/Reciever.exe

@@ -138,7 +138,7 @@ GameObject:
   - component: {fileID: 338659565}
   - component: {fileID: 338659566}
   m_Layer: 0
-  m_Name: Streaming camera
+  m_Name: Streaming Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -242,10 +242,6 @@ MonoBehaviour:
   m_Actions: {fileID: -944628639613478452, guid: 7f5935ed6feeb514582841f3041cba1b,
     type: 3}
   m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: f1808253-c62e-43e7-859e-be56283d7a42
-    m_ActionName: Camera Control/Rotate[/Mouse/leftButton,/Mouse/delta]
   - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 338659566}
